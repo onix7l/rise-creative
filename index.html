@@ -19,9 +19,34 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header></header>
+
+    <header class="header">
+      <div class="container header-container">
+      <a href="./index.html">
+        <img src="./images/logo.svg" alt="Rise creative logo" width="97" height="67" class="header-logo">
+      </a>
+      
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a class="header-nav-link current" href="">Home</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Project</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">About</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Blog</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="header-signin-btn">Sign in</button>
+
+      <button type="button" class="header-singup-btn">Sign up</button>
+      </div>
+    </header>
+
     <main>
+
       <section class="hero">
         <div class="container hero-container">
           <div class="hero-content-wrapper">
@@ -92,13 +117,7 @@
 
           <ul>
             <li>
-              <a href=""
-                ><img
-                  src="./images/google.png"
-                  alt="google logo"
-                  width="101"
-                  height="33"
-              /></a>
+              <a href=""><img src="" alt="" /></a>
             </li>
             <li>
               <a href=""><img src="" alt="" /></a>
@@ -137,7 +156,6 @@
               class="about-dots"
             />
           </div>
-
           <div class="about-content-wrapper">
             <p class="subtitle">About us</p>
             <h2 class="title">We are skilled in providing superior services</h2>
@@ -152,6 +170,92 @@
               </svg>
             </button>
           </div>
+        </div>
+      </section>
+
+      <section class="choose">
+        <div class="container choose-container">
+          <div>
+            <p class="subtitle">Why choose us</p>
+          <h2 class="title">Expert advising clients On financial challenges</h2>
+          <p class="description">
+            Customer satisfaction is such a key part of many successful
+            businesses. Most companies ,..
+          </p>
+
+          <ul class="choose-list">
+            <li class="choose-item">
+              <div class="choose-icons">
+                <svg class="choose-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-choose-1"></use>
+              </svg>
+              </div>
+              <div class="choose-wrapper">
+                <h3 class="choose-list-title">Frist working process</h3>
+              <p class="choose-list-desc">
+                Customer satisfaction is such a key part of many successful
+                businesses.
+              </p>
+              </div>
+            </li>
+            <li class="choose-item">
+              <div class="choose-icons">
+                <svg class="choose-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-choose-2"></use>
+              </svg>
+              </div>
+              <div class="choose-wrapper">
+                <h3 class="choose-list-title">Dedicated Team</h3>
+              <p class="choose-list-desc">
+                business model that refers to an agreement between the client
+                and service provider,
+              </p>
+              </div>
+            </li>
+            <li class="choose-item">
+              <div class="choose-icons">
+                <svg class="choose-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-choose-3"></use>
+              </svg>
+              </div>
+              <div class="choose-wrapper">
+                <h3 class="choose-list-title">24/7 Hours Support</h3>
+              <p class="choose-list-desc">
+                Scaling your team to provide assistance around the clock might
+                sound like a
+              </p>
+              </div>
+            </li>
+          </ul>
+
+          </div>
+
+          <div class="choose-img-wrapper">
+          <img
+            src="./images/choose.jpg"
+            alt="people working together"
+            width="624"
+            height="653"
+            class="choose-img"
+          />
+           <img
+              src="./images/dots.png"
+              alt=""
+              width="182"
+              height="182"
+              class="choose-dots"
+            />
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container services-container">
+          <p>our searvices</p>
+          <h2>What Creative Design We Offer</h2>
+          <p>Business owners and managers lead by example. The values and work ethic displayed by a company's decision makers have a direct ...</p>
         </div>
       </section>
     </main>
