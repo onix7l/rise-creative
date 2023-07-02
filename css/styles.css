@@ -40,6 +40,7 @@ img {
 
 body {
   font-family: var(--first-font);
+  background-color: var(--additional-color);
 }
 
 .container {
@@ -296,7 +297,7 @@ body {
 .about {
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: var(--additional-color);
+  /* background-color: var(--additional-color); */
 }
 
 .about-container {
@@ -341,13 +342,14 @@ body {
 
 .choose {
   padding-bottom: 140px;
-  background-color: var(--additional-color);
+  /* background-color: var(--additional-color); */
 }
 
 .choose-container {
   display: flex;
   gap: 31px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .choose .title {
@@ -423,7 +425,7 @@ body {
 /* Services section */
 
 .services {
-  background-color: var(--additional-color);
+  /* background-color: var(--additional-color); */
   padding-bottom: 138px;
 }
 
