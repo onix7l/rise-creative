@@ -86,6 +86,10 @@ body {
 
 .header {
   background: var(--dark-background);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .header-container {
@@ -177,6 +181,7 @@ body {
   gap: 74px;
   align-items: center;
   padding-left: max(15px, calc((100% - 1278px) / 2));
+  padding-bottom: 100px;
 }
 
 .hero-content-wrapper {
@@ -284,16 +289,27 @@ body {
   border-radius: 10px;
   position: absolute;
   bottom: 65px;
-  left: -20%;
+  left: -11%;
 }
 
 .hero-dot-icon {
   position: absolute;
-  top: -20px;
+  top: -30px;
   left: 20px;
 }
 
 .hero-img {
+}
+
+.hero-list {
+  display: flex;
+  gap: 80px;
+}
+.hero-list-item {
+}
+.hero-list-link {
+}
+.hero-list-img {
 }
 
 /* About section */
@@ -332,6 +348,7 @@ body {
   line-height: calc(22 / 14);
   border-radius: 100px;
   background: var(--main-color);
+  border: none;
   min-width: 160px;
   height: 46px;
   cursor: pointer;
@@ -468,14 +485,12 @@ body {
   width: calc((100% - 90px) / 4);
   background-color: var(--white-color);
   border-radius: 10px;
-background: #FFF;
-box-shadow: 0px 30px 50px -10px rgba(152, 151, 151, 0.37);
+  background: #fff;
+}
 
-Show 1 more color
-
-Frame 38509
-Icon · 58 x 58
-
+.services-list-item:hover,
+.services-list-item:focus {
+  box-shadow: 0px 30px 50px -10px rgba(152, 151, 151, 0.37);
 }
 
 .services-icon {
