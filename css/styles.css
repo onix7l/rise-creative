@@ -176,10 +176,12 @@ body {
   display: flex;
   gap: 74px;
   align-items: center;
+  padding-left: max(15px, calc((100% - 1278px) / 2));
 }
 
 .hero-content-wrapper {
   position: relative;
+  flex-shrink: 0;
 }
 
 .hero-title {
@@ -189,6 +191,7 @@ body {
   line-height: calc(66 / 60);
   letter-spacing: 0.037em;
   margin-bottom: 24px;
+  max-width: 534px;
 }
 
 .hero-desc {
@@ -274,6 +277,7 @@ body {
 
 .hero-img-wrapper {
   position: relative;
+  width: calc(100% - 534px - 74px);
 }
 
 .hero-chart-img {
