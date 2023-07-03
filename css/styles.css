@@ -86,10 +86,17 @@ body {
 
 .header {
   background: var(--dark-background);
+}
+
+.sticky {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
+}
+
+.sticky + main {
+  padding-top: 120px;
 }
 
 .header-container {
