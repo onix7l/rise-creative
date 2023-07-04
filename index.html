@@ -324,7 +324,7 @@
     <footer></footer>
 
     <div class="backdrop is-hidden" data-modal>
-      <!-- <div class="backdrop is-hidden" data-modal> -->
+      <!-- <div class="backdrop" data-modal> -->
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg class="close-icon" width="20" height="20">
@@ -339,16 +339,54 @@
           
 
         <form>
-          <!-- <label for="name" class="form-label">Name:</label>
-          <input type="text" name="name" id="name" class="form-input" placeholder="Olga"> -->
-
           <label for="email" class="form-label">Email:</label>
           <input type="email" name="email" id="email" class="form-input">
 
           <label for="password" class="form-label">Password:</label>
           <input type="password" name="password" id="password" class="form-input">
 
+          <input type="checkbox" name="remember" id="remember" class="input-check visually-hidden" value="true">
+          
+          <label for="remember" class="check-text"> 
+            <span>
+              <svg class="check-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>Remember</label>
+
+          <ul class="social-list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
           <button type="submit" class="form-signin-btn">Sign in</button>
+          
         </form>
         </div>
       </div>
