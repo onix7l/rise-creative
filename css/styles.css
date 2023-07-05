@@ -536,6 +536,51 @@ body {
   letter-spacing: 0.011em;
 }
 
+/* Contacts */
+
+.contacts {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contacts-container {
+}
+
+.contacts-title {
+  max-width: 610px;
+}
+
+.contacts-description {
+  max-width: 610px;
+}
+
+.contacts-list li:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.contacts-list-item {
+  display: flex;
+}
+
+.contacts-list-item:first-child {
+  max-width: 280px;
+}
+
+.contacts-list-link {
+}
+
+.location-icon {
+  margin-right: 12px;
+}
+
+.phone-icon {
+  margin-right: 14px;
+}
+
+.email-icon {
+  margin-right: 12px;
+}
+
 /* Modal */
 
 .backdrop {
