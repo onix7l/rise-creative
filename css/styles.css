@@ -187,6 +187,7 @@ body {
   background: var(--accent-color);
   padding: 13px 39px;
   cursor: pointer;
+  border: none;
 }
 
 /* Hero section */
