@@ -1,425 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rise creactive agency</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rise creactive agency</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+			integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
 
-  <body>
+	<body>
+		<header class="header sticky">
+			<div class="container header-container">
+				<a href="./index.html">
+					<img src="./images/logo.svg" alt="Rise creative logo" width="97" height="67" class="header-logo" />
+				</a>
 
-    <header class="header sticky">
-      <div class="container header-container">
-      <a href="./index.html">
-        <img src="./images/logo.svg" alt="Rise creative logo" width="97" height="67" class="header-logo">
-      </a>
-      
+				<nav class="header-nav">
+					<ul class="header-nav-list">
+						<li class="header-nav-item">
+							<a class="header-nav-link current" href="">Home</a>
+						</li>
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="">Project</a>
+						</li>
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="">About</a>
+						</li>
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="">Blog</a>
+						</li>
+						<li class="header-nav-item">
+							<a class="header-nav-link" href="">Contact</a>
+						</li>
+					</ul>
+				</nav>
 
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-item"><a class="header-nav-link current" href="">Home</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Project</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">About</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Blog</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Contact</a></li>
-        </ul>
-      </nav>
+				<button type="button" class="header-signin-btn" data-modal-open> Sign in </button>
 
-      <button type="button" class="header-signin-btn" data-modal-open>Sign in</button>
+				<button type="button" class="header-singup-btn">Sign up</button>
+			</div>
+		</header>
 
-      <button type="button" class="header-singup-btn">Sign up</button>
-      </div>
-    </header>
+		<main>
+			<section class="hero">
+				<div class="hero-container">
+					<div class="hero-content-wrapper">
+						<h1 class="hero-title">We’re a Creative Design Agency</h1>
+						<p class="description hero-desc">
+							We are delivering top level digital services best experlenced team, just get stared
+						</p>
+						<svg class="hero-star-icon" width="38" height="38">
+							<use href="./images/icons.svg#icon-star"></use>
+						</svg>
 
-    <main>
+						<ul class="hero-btn-list">
+							<li>
+								<button type="button" class="hero-btn">
+									Get Started
+									<svg class="hero-arrow-icon" width="24" height="15">
+										<use href="./images/icons.svg#icon-arrow"></use>
+									</svg>
+								</button>
+							</li>
+							<li>
+								<button type="button" class="hero-video-btn">
+									<svg class="hero-play-icon" width="30" height="30">
+										<use href="./images/icons.svg#icon-play"></use>
+									</svg>
+									How it works
+								</button>
+							</li>
+						</ul>
 
-      <section class="hero">
-        <div class="hero-container">
-          <div class="hero-content-wrapper">
-            <h1 class="hero-title">We’re a Creative Design Agency</h1>
-            <p class="description hero-desc">
-              We are delivering top level digital services best experlenced
-              team, just get stared
-            </p>
-            <svg class="hero-star-icon" width="38" height="38">
-              <use href="./images/icons.svg#icon-star"></use>
-            </svg>
+						<ul class="hero-stat-list">
+							<li class="hero-stat-item">
+								<p class="hero-stat-num">20+</p>
+								<p class="hero-stat-text">Years of Excellent</p>
+							</li>
+							<li class="hero-stat-item">
+								<p class="hero-stat-num">90%</p>
+								<p class="hero-stat-text">Happy Client</p>
+							</li>
+							<li class="hero-stat-item">
+								<p class="hero-stat-num">80%</p>
+								<p class="hero-stat-text">Project Succes</p>
+							</li>
+						</ul>
+					</div>
 
-            <ul class="hero-btn-list">
-              <li>
-                <button type="button" class="hero-btn">
-                  Get Started
-                  <svg class="hero-arrow-icon" width="24" height="15">
-                    <use href="./images/icons.svg#icon-arrow"></use>
-                  </svg>
-                </button>
-              </li>
-              <li>
-                <button type="button" class="hero-video-btn">
-                  <svg class="hero-play-icon" width="30" height="30">
-                    <use href="./images/icons.svg#icon-play"></use>
-                  </svg>
-                  How it works
-                </button>
-              </li>
-            </ul>
+					<div class="hero-img-wrapper">
+						<img src="./images/hero-chart.jpg" alt="hero chart" width="202" height="235" class="hero-chart-img" />
+						<svg class="hero-dot-icon" width="12" height="12">
+							<use href="./images/icons.svg#icon-dot"></use>
+						</svg>
 
-            <ul class="hero-stat-list">
-              <li class="hero-stat-item">
-                <p class="hero-stat-num">20+</p>
-                <p class="hero-stat-text">Years of Excellent</p>
-              </li>
-              <li class="hero-stat-item">
-                <p class="hero-stat-num">90%</p>
-                <p class="hero-stat-text">Happy Client</p>
-              </li>
-              <li class="hero-stat-item">
-                <p class="hero-stat-num">80%</p>
-                <p class="hero-stat-text">Project Succes</p>
-              </li>
-            </ul>
-          </div>
+						<img src="./images/hero-img.jpg" alt="people working" width="753" height="599" class="hero-img" />
+					</div>
+				</div>
 
-          <div class="hero-img-wrapper">
-            <img
-              src="./images/hero-chart.jpg"
-              alt="hero chart"
-              width="202"
-              height="235"
-              class="hero-chart-img"
-            />
-            <svg class="hero-dot-icon" width="12" height="12">
-              <use href="./images/icons.svg#icon-dot"></use>
-            </svg>
+				<div class="container">
+					<ul class="hero-list">
+						<li class="hero-list-item">
+							<a href="" class="hero-list-link"
+								><img class="hero-list-img" src="./images/google.png" alt="Google logo" width="101" height="33"
+							/></a>
+						</li>
+						<li class="hero-list-item">
+							<a href="" class="hero-list-link"
+								><img class="hero-list-img" src="./images/dropbox.png" alt="Dropbox logo" width="166" height="33"
+							/></a>
+						</li>
+						<li class="hero-list-item">
+							<a href="" class="hero-list-link"
+								><img class="hero-list-img" src="./images/amazon.png" alt="Amazon logo" width="115" height="35"
+							/></a>
+						</li>
+						<li class="hero-list-item">
+							<a href="" class="hero-list-link"
+								><img class="hero-list-img" src="./images/atlassian.png" alt="Atlassian logo" width="188" height="23"
+							/></a>
+						</li>
+						<li class="hero-list-item">
+							<a href="" class="hero-list-link"
+								><img class="hero-list-img" src="./images/atlassian-2.png" alt="Atlassian logo" width="188" height="23"
+							/></a>
+						</li>
+						<li class="hero-list-item">
+							<a href="" class="hero-list-link"
+								><img class="hero-list-img" src="./images/hubspot.png" alt="Hubspot logo" width="124" height="35"
+							/></a>
+						</li>
+					</ul>
+				</div>
+			</section>
 
-            <img
-              src="./images/hero-img.jpg"
-              alt="people working"
-              width="753"
-              height="599"
-              class="hero-img"
-            />
-          </div>
-        </div>
+			<section class="about">
+				<div class="container about-container">
+					<div class="about-img-wrapper">
+						<img
+							src="./images/about-img.jpg"
+							alt="people working in an office with laptop"
+							width="620"
+							height="444"
+							class="about-img"
+						/>
+						<img src="./images/dots.png" alt="" width="182" height="182" class="about-dots" />
+					</div>
+					<div class="about-content-wrapper">
+						<p class="subtitle">About us</p>
+						<h2 class="title">We are skilled in providing superior services</h2>
+						<p class="description">
+							Customer satisfaction is such a key part of many successful businesses. Most companies have
+						</p>
+						<button type="button" class="about-btn">
+							Read More
+							<svg class="about-icon" width="15" height="10">
+								<use href="./images/icons.svg#icon-arrow"></use>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
 
-        <div class="container">
-            <ul class="hero-list">
-            <li class="hero-list-item">
-              <a href="" class="hero-list-link"><img class="hero-list-img" src="./images/google.png" alt="Google logo" width="101" height="33"/></a>
-            </li>
-            <li class="hero-list-item">
-              <a href="" class="hero-list-link"><img class="hero-list-img" src="./images/dropbox.png" alt="Dropbox logo" width="166" height="33"/></a>
-            </li>
-            <li class="hero-list-item">
-              <a href="" class="hero-list-link"><img class="hero-list-img" src="./images/amazon.png" alt="Amazon logo" width="115" height="35"/></a>
-            </li>
-            <li class="hero-list-item">
-              <a href="" class="hero-list-link"><img class="hero-list-img" src="./images/atlassian.png" alt="Atlassian logo" width="188" height="23"/></a>
-            </li>
-            <li class="hero-list-item">
-              <a href="" class="hero-list-link"><img class="hero-list-img" src="./images/atlassian-2.png" alt="Atlassian logo" width="188" height="23"/></a>
-            </li>
-            <li class="hero-list-item">
-              <a href="" class="hero-list-link"><img class="hero-list-img" src="./images/hubspot.png" alt="Hubspot logo" width="124" height="35"/></a>
-            </li>
-          </ul>
-          </div>
-      </section>
+			<section class="choose">
+				<div class="container choose-container">
+					<div>
+						<p class="subtitle">Why choose us</p>
+						<h2 class="title"> Expert advising clients On financial challenges </h2>
+						<p class="description">
+							Customer satisfaction is such a key part of many successful businesses. Most companies ,..
+						</p>
 
-      <section class="about">
-        <div class="container about-container">
-          <div class="about-img-wrapper">
-            <img
-              src="./images/about-img.jpg"
-              alt="people working in an office with laptop"
-              width="620"
-              height="444"
-              class="about-img"
-            />
-            <img
-              src="./images/dots.png"
-              alt=""
-              width="182"
-              height="182"
-              class="about-dots"
-            />
-          </div>
-          <div class="about-content-wrapper">
-            <p class="subtitle">About us</p>
-            <h2 class="title">We are skilled in providing superior services</h2>
-            <p class="description">
-              Customer satisfaction is such a key part of many successful
-              businesses. Most companies have
-            </p>
-            <button type="button" class="about-btn">
-              Read More
-              <svg class="about-icon" width="15" height="10">
-                <use href="./images/icons.svg#icon-arrow"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </section>
+						<ul class="choose-list">
+							<li class="choose-item">
+								<div class="choose-icons">
+									<svg class="choose-icon" width="32" height="32">
+										<use href="./images/icons.svg#icon-choose-1"></use>
+									</svg>
+								</div>
+								<div class="choose-wrapper">
+									<h3 class="choose-list-title">Frist working process</h3>
+									<p class="choose-list-desc">
+										Customer satisfaction is such a key part of many successful businesses.
+									</p>
+								</div>
+							</li>
+							<li class="choose-item">
+								<div class="choose-icons">
+									<svg class="choose-icon" width="32" height="32">
+										<use href="./images/icons.svg#icon-choose-2"></use>
+									</svg>
+								</div>
+								<div class="choose-wrapper">
+									<h3 class="choose-list-title">Dedicated Team</h3>
+									<p class="choose-list-desc">
+										business model that refers to an agreement between the client and service provider,
+									</p>
+								</div>
+							</li>
+							<li class="choose-item">
+								<div class="choose-icons">
+									<svg class="choose-icon" width="32" height="32">
+										<use href="./images/icons.svg#icon-choose-3"></use>
+									</svg>
+								</div>
+								<div class="choose-wrapper">
+									<h3 class="choose-list-title">24/7 Hours Support</h3>
+									<p class="choose-list-desc">
+										Scaling your team to provide assistance around the clock might sound like a
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
 
-      <section class="choose">
-        <div class="container choose-container">
-          <div>
-            <p class="subtitle">Why choose us</p>
-          <h2 class="title">Expert advising clients On financial challenges</h2>
-          <p class="description">
-            Customer satisfaction is such a key part of many successful
-            businesses. Most companies ,..
-          </p>
+					<div class="choose-img-wrapper">
+						<img src="./images/choose.jpg" alt="people working together" width="624" height="653" class="choose-img" />
+						<img src="./images/dots.png" alt="" width="182" height="182" class="choose-dots" />
+					</div>
+				</div>
+			</section>
 
-          <ul class="choose-list">
-            <li class="choose-item">
-              <div class="choose-icons">
-                <svg class="choose-icon" width="32" height="32">
-                <use href="./images/icons.svg#icon-choose-1"></use>
-              </svg>
-              </div>
-              <div class="choose-wrapper">
-                <h3 class="choose-list-title">Frist working process</h3>
-              <p class="choose-list-desc">
-                Customer satisfaction is such a key part of many successful
-                businesses.
-              </p>
-              </div>
-            </li>
-            <li class="choose-item">
-              <div class="choose-icons">
-                <svg class="choose-icon" width="32" height="32">
-                <use href="./images/icons.svg#icon-choose-2"></use>
-              </svg>
-              </div>
-              <div class="choose-wrapper">
-                <h3 class="choose-list-title">Dedicated Team</h3>
-              <p class="choose-list-desc">
-                business model that refers to an agreement between the client
-                and service provider,
-              </p>
-              </div>
-            </li>
-            <li class="choose-item">
-              <div class="choose-icons">
-                <svg class="choose-icon" width="32" height="32">
-                <use href="./images/icons.svg#icon-choose-3"></use>
-              </svg>
-              </div>
-              <div class="choose-wrapper">
-                <h3 class="choose-list-title">24/7 Hours Support</h3>
-              <p class="choose-list-desc">
-                Scaling your team to provide assistance around the clock might
-                sound like a
-              </p>
-              </div>
-            </li>
-          </ul>
+			<section class="services">
+				<div class="container services-container">
+					<div class="services-subtitle">
+						<p class="subtitle">our searvices</p>
+					</div>
+					<h2 class="title">What Creative Design We Offer</h2>
+					<p class="description">
+						Business owners and managers lead by example. The values and work ethic displayed by a company's decision
+						makers have a direct ...
+					</p>
 
-          </div>
+					<ul class="services-list">
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-1"></use>
+							</svg>
+							<h3 class="services-item-title">Product Management</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-2"></use>
+							</svg>
+							<h3 class="services-item-title">Web & Mobile Development</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-3"></use>
+							</svg>
+							<h3 class="services-item-title">Brochures & Flyers</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-4"></use>
+							</svg>
+							<h3 class="services-item-title">Logo & name cards</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-5"></use>
+							</svg>
+							<h3 class="services-item-title">Marketing & Commuication</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-6"></use>
+							</svg>
+							<h3 class="services-item-title">Business Development</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-7"></use>
+							</svg>
+							<h3 class="services-item-title">Human Resources</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+						<li class="services-list-item">
+							<svg class="services-icon" width="58" height="58">
+								<use href="./images/icons.svg#icon-services-8"></use>
+							</svg>
+							<h3 class="services-item-title">Infographics & Illustrations</h3>
+							<p class="services-item-text">vacancy available 20</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 
-          <div class="choose-img-wrapper">
-          <img
-            src="./images/choose.jpg"
-            alt="people working together"
-            width="624"
-            height="653"
-            class="choose-img"
-          />
-           <img
-              src="./images/dots.png"
-              alt=""
-              width="182"
-              height="182"
-              class="choose-dots"
-            />
-            </div>
-          </div>
+			<section class="contacts">
+				<div class="container contacts-container">
+					<p class="subtitle contacts-subtitle">OUR CONTACTS</p>
+					<h2 class="title contacts-title"> Let’s Start Working Together. Get in Touch with Us! </h2>
+					<p class="description contacts-description">
+						Get in touch to discuss your employee wellbeing needs today. Please give us a call, drop us an email.
+					</p>
 
-        </div>
-      </section>
+					<ul class="contacts-list">
+						<li class="contacts-list-item">
+							<a href=""
+								><svg class="location-icon" width="16" height="16">
+									<use href="./images/icons.svg#icon-location"></use></svg
+							></a>
+							<a class="contacts-list-link" href="">41 Pilgrm Avenue, Chevy Chase, Md 20815</a>
+						</li>
+						<li class="contacts-list-item">
+							<a href="">
+								<svg class="phone-icon" width="11" height="14">
+									<use href="./images/icons.svg#icon-phone"></use>
+								</svg>
+							</a>
+							<a class="contacts-list-link" href="tel:+01234567890"> +01234 567 890</a>
+						</li>
+						<li class="contacts-list-item">
+							<a href=""
+								><svg class="email-icon" width="16" height="16">
+									<use href="./images/icons.svg#icon-email"></use></svg
+							></a>
+							<a class="contacts-list-link" href="mailto:info@agency.com">info@agency.com</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer-container">
+				<div class="logo-wrapper">
+					<a href="./index.html">
+						<img src="./images/logo.svg" alt="Rise creative logo" width="97" height="67" class="footer-logo" />
+					</a>
 
-      <section class="services">
-        <div class="container services-container">
-          <div class="services-subtitle"><p class="subtitle">our searvices</p></div>
-          <h2 class="title">What Creative Design We Offer</h2>
-          <p class="description">Business owners and managers lead by example. The values and work ethic displayed by a company's decision makers have a direct ...</p>
-        
+					<p class="footer-desc">
+						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+						velit mollit.
+					</p>
 
-          <ul class="services-list">
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-1"></use>
-                </svg>
-              <h3 class="services-item-title">Product Management</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-2"></use>
-                </svg>
-              <h3 class="services-item-title">Web & Mobile Development</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-3"></use>
-                </svg>
-              <h3 class="services-item-title">Brochures & Flyers</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-4"></use>
-                </svg>
-              <h3 class="services-item-title">Logo & name cards</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-5"></use>
-                </svg>
-              <h3 class="services-item-title">Marketing & Commuication</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-6"></use>
-                </svg>
-              <h3 class="services-item-title">Business Development</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-7"></use>
-                </svg>
-              <h3 class="services-item-title">Human Resources</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-            <li class="services-list-item">
-              <svg class="services-icon" width="58" height="58">
-                  <use href="./images/icons.svg#icon-services-8"></use>
-                </svg>
-              <h3 class="services-item-title">Infographics & Illustrations</h3>
-              <p class="services-item-text">vacancy available 20</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+					<ul class="footer-social-list">
+						<li class="footer-social-item">
+							<a href="" class="footer-social-link">
+								<svg class="footer-social-icon" width="14" height="14">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-social-item">
+							<a href="" class="footer-social-link">
+								<svg class="footer-social-icon" width="14" height="14">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="footer-social-item">
+							<a href="" class="footer-social-link">
+								<svg class="footer-social-icon" width="14" height="14">
+									<use href="./images/icons.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
 
-      <section class="contacts">
-        <div class="container contacts-container">
-          <p class="subtitle contacts-subtitle">OUR CONTACTS</p>
-          <h2 class="title contacts-title">Let’s Start Working Together. Get in Touch with Us!</h2>
-          <p class="description contacts-description">Get in touch to discuss your employee wellbeing needs today. Please give us a call, drop us an email.</p>
-          
-          <ul class="contacts-list">
-            <li class="contacts-list-item">
-              <a href=""><svg class="location-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-location"></use>
-            </svg></a>
-              <a class="contacts-list-link" href="">41 Pilgrm Avenue, Chevy Chase, Md 20815</a>
-            </li>
-            <li class="contacts-list-item">
-              <a href="">
-                <svg class="phone-icon" width="11" height="14">
-                <use href="./images/icons.svg#icon-phone"></use></svg>
-              </a>
-              <a class="contacts-list-link" href="tel:+01234567890">
-            +01234 567 890</a></li>
-            <li class="contacts-list-item">
-              <a href=""><svg class="email-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg></a>
-              <a class="contacts-list-link" href="mailto:info@agency.com">info@agency.com</a></li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer></footer>
+				<div class="useful-links-wrapper">
+					<p class="footer-list-title">Useful Link</p>
+					<ul class="footer-list">
+						<li class="footer-list-item"><a class="footer-list-link" href="">Home</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Company News</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">About us</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Projects</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Careers</a></li>
+					</ul>
+				</div>
 
-    <div class="backdrop is-hidden" data-modal>
-      <!-- <div class="backdrop" data-modal> -->
-      <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>
-          <svg class="close-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+				<div class="services-wrapper">
+					<p class="footer-list-title">Services</p>
+					<ul class="footer-list">
+						<li class="footer-list-item"><a class="footer-list-link" href="">Website Design</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Logo and Branding</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Mobile App</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Search Engine</a></li>
+					</ul>
+				</div>
 
-        <div class="modal-wrapper">
-          <div class="modal-subtitle">
-            <p class="subtitle">Sign in</p>
-          </div>
-          
+				<div class="company-wrapper">
+					<p class="footer-list-title">Company</p>
+					<ul class="footer-list">
+						<li class="footer-list-item"><a class="footer-list-link" href="">Carees </a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Contact</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">FAQ</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="">Partners</a></li>
+					</ul>
+				</div>
 
-        <form>
-          <label for="email" class="form-label">Email:</label>
-          <input type="email" name="email" id="email" class="form-input">
+				<div class="address-wrapper">
+					<p class="footer-list-title">Contact Us</p>
+					<address class="footer-address">
+						<ul class="footer-ad-list">
+							<li class="footer-ad-item">
+								<a href=""
+									><svg class="footer-icon" width="16" height="16">
+										<use href="./images/icons.svg#icon-location"></use></svg
+								></a>
+								<a class="footer-ad-link" href="">41 Pilgrm Avenue, Chevy Chase, Md 20815</a>
+							</li>
+							<li class="footer-ad-item">
+								<a href="">
+									<svg class="footer-icon" width="11" height="14">
+										<use href="./images/icons.svg#icon-phone"></use>
+									</svg>
+								</a>
+								<a class="footer-ad-link" href="tel:+01234567890"> +01234 567 890</a>
+							</li>
+							<li class="footer-ad-item">
+								<a href=""
+									><svg class="footer-icon" width="16" height="16">
+										<use href="./images/icons.svg#icon-email"></use></svg
+								></a>
+								<a class="footer-ad-link" href="mailto:info@agency.com">info@agency.com</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+			</div>
+		</footer>
 
-          <label for="password" class="form-label">Password:</label>
-          <input type="password" name="password" id="password" class="form-input">
+		<div class="backdrop is-hidden" data-modal>
+			<!-- <div class="backdrop" data-modal> -->
+			<div class="modal">
+				<button type="button" class="close-btn" data-modal-close>
+					<svg class="close-icon" width="20" height="20">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
 
-          <input type="checkbox" name="remember" id="remember" class="input-check visually-hidden" value="true">
-          
-          <label for="remember" class="check-text"> 
-            <span>
-              <svg class="check-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-check"></use>
-              </svg>
-            </span>Remember</label>
+				<div class="modal-wrapper">
+					<div class="modal-subtitle">
+						<p class="subtitle">Sign in</p>
+					</div>
 
-          <ul class="social-list">
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a href="" class="social-list-link">
-                <svg class="social-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+					<form>
+						<label for="email" class="form-label">Email:</label>
+						<input type="email" name="email" id="email" class="form-input" />
 
-          <button type="submit" class="form-signin-btn">Sign in</button>
-          
-        </form>
-        </div>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
-  </body>
+						<label for="password" class="form-label">Password:</label>
+						<input type="password" name="password" id="password" class="form-input" />
+
+						<input type="checkbox" name="remember" id="remember" class="input-check visually-hidden" value="true" />
+
+						<label for="remember" class="check-text">
+							<span>
+								<svg class="check-icon" width="16" height="16">
+									<use href="./images/icons.svg#icon-check"></use>
+								</svg> </span
+							>Remember</label
+						>
+
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-list-item">
+								<a href="" class="social-list-link">
+									<svg class="social-icon" width="24" height="24">
+										<use href="./images/icons.svg#icon-linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+
+						<button type="submit" class="form-signin-btn">Sign in</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
+	</body>
 </html>
